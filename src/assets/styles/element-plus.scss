@@ -1,0 +1,30 @@
+.select {
+    .el-select__wrapper {
+        background-color: $background;
+        outline: $accent;
+        box-shadow: 0 0 0 1px $text inset;
+        color: red;
+    }
+    .el-select__wrapper.is-focused {
+        box-shadow: 0 0 0 1px $accent inset;
+    }
+    .el-select__selection {
+        // background-color: $background;
+    }
+    .el-select__input-wrapper {
+        // background: red;
+    }
+    .el-select__placeholder {
+        color: $text;
+    }
+    .el-select__caret {
+        color: $text;
+    }
+    .el-select-dropdown {
+        // background: red;
+        color: $text;
+    }
+    .el-select__selection {
+        // background: red;
+    }
+}
